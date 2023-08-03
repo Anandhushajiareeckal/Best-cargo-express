@@ -1,7 +1,6 @@
 @extends("layouts.frontend")
 @section("body")
 
-
  <!-- subheader begin -->
  <section id="subheader" class="page-about no-bottom" data-stellar-background-ratio="0.5">
     <div class="inner">
@@ -12,8 +11,8 @@
                     <div class="crumb">
                         <div class="deco">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="{{asset('/')}}">Home</a></li>
+                                <li><a href="{{asset('about')}}">About</a></li>
                                 <li>Company</li>
                             </ul>
                         </div>
@@ -34,13 +33,12 @@
             <div class="col-md-4">
                 <div class="widget">
                     <ul class="side-nav">
-                        <li class="active"><a href="about.html">Company</a></li>
-                        <li><a href="people.html">People</a></li>
-                        <li><a href="history.html">History</a></li>
-                        <li><a href="event.html">Events</a></li>
-                        <li><a href="testimonial.html">Testimonials</a></li>
-                        <li><a href="careers.html">Careers</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li class="active"><a href="{{asset('about')}}">Company</a></li>
+                        <li><a href="{{asset('people')}}">People</a></li>
+                        <li><a href="{{asset('history')}}">History</a></li>
+                        <li><a href="{{asset('testimonials')}}">Testimonials</a></li>
+                        <li><a href="{{asset('careers')}}">Careers</a></li>
+                        <li><a href="{{asset('faq')}}">FAQ</a></li>
                     </ul>
                 </div>
 

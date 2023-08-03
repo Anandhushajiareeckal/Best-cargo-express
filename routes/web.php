@@ -41,7 +41,7 @@ Route::get('history', function () {
     return view('history');
 });
 
-Route::get('nwes', function () {
+Route::get('news', function () {
     return view('news');
 });
 
@@ -79,4 +79,15 @@ Route::get('service', function () {
 
 Route::get('testimonial', function () {
     return view('testimonial');
+});
+
+Route::get('admin', function () {
+    return view('admin.index_1');
+});
+
+Route::get('admin_news', function () {
+    return view('admin.admin_news');
+});
+Route::get('admin_service', function () {
+    return view('admin.admin_service');
 });

@@ -11,7 +11,6 @@
     <!-- LOAD CSS FILES -->
     <link href="{{asset('css/main.css')}}" rel="stylesheet" type="text/css">
 </head>
-
 <body>
     <div id="preloader"></div>
     <div id="wrapper">
@@ -32,7 +31,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <div class="inner">
-                                <a href="index.html">
+                                <a href="{{asset('/')}}">
                                     <img src="https://bestexpresscargo.com/assets/img/logo.png" alt="" class="logo-1">
                                     <img src="https://bestexpresscargo.com/assets/img/logo.png" alt="" class="logo-2" >
                                 </a>
@@ -48,7 +47,7 @@
                         <!-- mainmenu begin -->
                         <nav id="mainmenu-container">
                             <ul id="mainmenu">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{asset('/')}}">Home</a></li>
                                 <li><a href="{{asset('service')}}">Services</a>
                                     <ul>
                                         <li><a href="{{asset('service')}}">All Services</a></li>
@@ -60,12 +59,12 @@
                                         
                                     </ul>
                                 </li>
-                                <li><a href="about.html">About Us</a>
+                                <li><a href="{{asset('about')}}">About Us</a>
                                    
                                 </li>
-                                <li><a href="news.html">News & Updates</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{asset('news')}}">News & Updates</a></li>
+                                <li><a href="{{asset('gallery')}}">Gallery</a></li>
+                                <li><a href="{{asset('contact')}}">Contact</a></li>
                             </ul>
                         </nav>
                         <!-- mainmenu close -->

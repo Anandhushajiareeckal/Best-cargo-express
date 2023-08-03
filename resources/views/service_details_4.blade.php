@@ -12,8 +12,8 @@
                             <div class="crumb">
                                 <div class="deco">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="{{asset('/')}}">Home</a></li>
+                                        <li><a href="{{asset('service')}}">Services</a></li>/li>
                                         <li>Logistics</li>
                                     </ul>
                                 </div>
@@ -34,13 +34,13 @@
                     <div class="col-md-4">
                         <div class="widget">
                             <ul class="side-nav">
-                                <li><a href="services.html">All Services</a></li>
-                                <li><a href="service-details-1.html">Ocean Freight</a></li>
-                                 <li><a href="service-details-3.html">Overland Transportation</a></li>
-                                 <li><a href="service-details-2.html">Air Freight</a></li>
-                                 <li class="active"><a href="service-details-4.html">Sea / Air Freight</a></li>
-                                 <li><a href="service-details-5.html">Warehousing</a></li>
-                                 <li><a href="service-details-6.html">Door To Door Cargo Service</a></li>
+                                <li><a href="{{asset('service')}}">All Services</a></li>
+                                <li class="active"><a href="{{asset('service_details_1')}}">Ocean Freight</a></li>
+                                 <li><a href="{{asset('service_details_3')}}">Overland Transportation</a></li>
+                                 <li><a href="{{asset('service_details_2')}}">Air Freight</a></li>
+                                 <li><a href="{{asset('service_details_4')}}">Sea / Air Freight</a></li>
+                                 <li><a href="{{asset('service_details_5')}}">Warehousing</a></li>
+                                 <li><a href="{{asset('service_details_6')}}">Door To Door Cargo Service</a></li>
                             </ul>
                         </div>
 

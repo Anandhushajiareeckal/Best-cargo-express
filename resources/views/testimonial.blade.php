@@ -11,8 +11,8 @@
                         <div class="crumb">
                             <div class="deco">
                                 <ul>
-                                    <li><a href="index-2.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="{{asset('/')}}">Home</a></li>
+                                    <li><a href="{{asset('about')}}">About</a></li>
                                     <li>Testimonials</li>
                                 </ul>
                             </div>
@@ -32,15 +32,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="widget">
-                        <ul class="side-nav">
-                            <li><a href="about.html">Company</a></li>
-                            <li><a href="people.html">People</a></li>
-                            <li><a href="history.html">History</a></li>
-                            <li><a href="event.html">Events</a></li>
-                            <li class="active"><a href="testimonial.html">Testimonials</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
+                       Best_express_cargo/resources/views/faq.blade.php
                     </div>
 
                     <div class="widget">

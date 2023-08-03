@@ -177,7 +177,7 @@
                                             <h3>Ocean<br>
                                                 Freight</h3>
                                             <p>Complete range of sea freight services for all types of cargo and requirements.</p>
-                                            <a href="service-details-1.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href=" {{asset('service_details_1')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                                             <h3>Overland <br>
                                                 Transportation</h3>
                                             <p>We help you to plan and make packing and moving as painless as possible.</p>
-                                            <a href="service-details-3.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href=" {{asset('service_details_3')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@
                                             <h3>Air<br>
                                                 Freight</h3>
                                             <p>Air freight for shipments traveling nationwide or internationally via cargo.</p>
-                                            <a href="service-details-2.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href=" {{asset('service_details_2')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -217,7 +217,7 @@
                                             <h3>Door To Door  <br>
                                                 Cargo Service</h3>
                                             <p>Customers are demanding. They want more choices. More flexibility in ordering and delivery. </p>
-                                            <a href="service-details-4.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href=" {{asset('service_details_4')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>

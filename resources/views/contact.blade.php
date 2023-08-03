@@ -11,7 +11,7 @@
                         <div class="crumb">
                             <div class="deco">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="{{asset('/')}}">Home</a></li>
                                     <li>Contact</li>
                                 </ul>
                             </div>

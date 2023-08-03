@@ -11,7 +11,7 @@
                         <div class="crumb">
                             <div class="deco">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="{{asset('/')}}">Home</a></li>
                                     <li>Services</li>
                                 </ul>
                             </div>
@@ -46,7 +46,7 @@
                                             <h3>Ocean<br>
                                                 Freight</h3>
                                             <p>Complete range of ocean freight services for all types of cargo and requirements.</p>
-                                            <a href="service-details-1.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href="{{asset('service_details_1')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
                                             <h3>Overland<br>
                                                 Transportation</h3>
                                             <p>We help you to plan and make packing and moving as painless as possible.</p>
-                                            <a href="service-details-3.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href="{{asset('service_details_3')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@
                                             <h3>Air<br>
                                                 Freight</h3>
                                             <p>Air freight for shipments traveling nationwide or internationally via cargo.</p>
-                                            <a href="service-details-2.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href="{{asset('service_details_3')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@
                                             <h3>Sea / Air  <br>
                                                 Freight</h3>
                                             <p>Best Expres Cargo have skilled freight management partner combining traditional modes of transport in order to offer a timely and cost-effective shipping alternative .</p>
-                                            <a href="service-details-4.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href="{{asset('service_details_4')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@
                                             <h3>Warehousing And <br>
                                                 Distribution  </h3>
                                             <p>Our warehousing and distribution capabilities include full-service management.</p>
-                                            <a href="service-details-5.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href="{{asset('service_details_5')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@
                                                 </h3>
                                             <p>
                                                 It is a Safe and Reliable door to door delivery services through our own consolidation around the world.</p>
-                                            <a href="service-details-6.html" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
+                                            <a href="{{asset('service_details_6')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>

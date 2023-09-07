@@ -29,11 +29,7 @@
     <div id="content">
         <div class="container">
             <div class="row no-gutter">
-                <div class="col-md-6">
-                    <div id="map"></div>
-                </div>
-
-                <div class="col-md-6">
+                <div class="col-md-7 ">
                     <div id="contact-form-wrapper">
                         <div class="contact_form_holder">
                             <form id="contact" class="row" name="form1" method="post" action="#">

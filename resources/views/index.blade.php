@@ -79,13 +79,13 @@
                                     <li class="timeline-inverted">
                                         <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
                                             Nov 03, 2015
-      <span>20:07 pm</span>
+                                            <span>20:07 pm</span>
                                         </div>
                                         <div class="timeline-badge success"><i class="fa fa-check-square-o wow zoomIn"></i></div>
                                         <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
                                             <div class="timeline-body">
                                                 The shipment has been successfully delivered 
-          <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
+                                                <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -93,13 +93,13 @@
                                     <li class="timeline-inverted">
                                         <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
                                             Nov 03, 2015
-      <span>20:07 pm</span>
+                                            <span>20:07 pm</span>
                                         </div>
                                         <div class="timeline-badge warning"><i class="fa fa-warning wow zoomIn"></i></div>
                                         <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
                                             <div class="timeline-body">
                                                 The shipment could not be delivered 
-          <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
+                                                <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -107,13 +107,13 @@
                                     <li class="timeline-inverted">
                                         <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
                                             Nov 03, 2015
-      <span>20:07 pm</span>
+                                            <span>20:07 pm</span>
                                         </div>
                                         <div class="timeline-badge"><i class="fa fa-plane wow zoomIn"></i></div>
                                         <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
                                             <div class="timeline-body">
                                                 The shipment has arrived in destination country
-          <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
+                                                <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -121,13 +121,13 @@
                                     <li class="timeline-inverted">
                                         <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
                                             Nov 02, 2015
-      <span>18:05 pm</span>
+                                            <span>18:05 pm</span>
                                         </div>
                                         <div class="timeline-badge"><i class="fa fa-plane wow zoomIn"></i></div>
                                         <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
                                             <div class="timeline-body">
                                                 The shipment is being transformed to destination country
-          <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
+                                                <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -135,13 +135,13 @@
                                     <li class="timeline-inverted">
                                         <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
                                             Nov 01, 2015
-      <span>10:08 pm</span>
+                                            <span>10:08 pm</span>
                                         </div>
                                         <div class="timeline-badge"><i class="fa fa-plane wow zoomIn"></i></div>
                                         <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
                                             <div class="timeline-body">
                                                 The international shipment has been processed
-          <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
+                                                <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -177,7 +177,6 @@
                                             <h3>Ocean<br>
                                                 Freight</h3>
                                             <p>Complete range of sea freight services for all types of cargo and requirements.</p>
-                                            <a href=" {{asset('service_details_1')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +189,6 @@
                                             <h3>Overland <br>
                                                 Transportation</h3>
                                             <p>We help you to plan and make packing and moving as painless as possible.</p>
-                                            <a href=" {{asset('service_details_3')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -204,7 +202,6 @@
                                             <h3>Air<br>
                                                 Freight</h3>
                                             <p>Air freight for shipments traveling nationwide or internationally via cargo.</p>
-                                            <a href=" {{asset('service_details_2')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -217,7 +214,6 @@
                                             <h3>Door To Door  <br>
                                                 Cargo Service</h3>
                                             <p>Customers are demanding. They want more choices. More flexibility in ordering and delivery. </p>
-                                            <a href=" {{asset('service_details_4')}}" class="btn-arrow"><span class="line"></span><span class="url">View Details</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -425,116 +421,7 @@
         </section>
         <!-- section close -->
 
-        <!-- section begin -->
-        <section id="section-features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
-                        <h2>Company</h2>
-                        <div class="divider-deco"><span></span></div>
-                        <ul class="accordion style-2">
-
-                            <li>
-                                <a class="Active">Company Profile</a>
-                                <div class="content">
-                                    Best Express Cargo is a Leading freight forwarding company in the Middle East. Offering premium Freight & Logisitics Services to Business Worldwide. As premier Service international Freight Forwarders. We rank second to none in Designing Logistics infrastructures which provide the best compromise between cost, speed and reliability.                                    </div>
-                            </li>
-
-                            <li>
-                                <a class="NoneActive">Mission &amp; Vision</a>
-                                <div class="content">
-                                    To continue to earn a reputation of integrity, service and diversity, that is unmatched in our industry, 'The Dependable Difference', In order to achieve these lofty objectives, we must hire and retain only the most Qualified and dedicated who share the Company's vision.                                    </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
-                        <h2>News</h2>
-                        <div class="divider-deco"><span></span></div>
-                        <ul class="news-list-date">
-                            <li>
-                                <div class="date">
-                                    <span class="day">19</span>
-                                    <span class="month">Aug</span>
-                                </div>
-                                <div class="text">
-                                    <a href="#">
-                                        <h4>We Opening New Branch</h4>
-                                    </a>
-                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem</p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="date">
-                                    <span class="day">18</span>
-                                    <span class="month">Aug</span>
-                                </div>
-                                <div class="text">
-                                    <a href="#">
-                                        <h4>Estimate Shipping Cost</h4>
-                                    </a>
-                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem</p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="date">
-                                    <span class="day">17</span>
-                                    <span class="month">Aug</span>
-                                </div>
-                                <div class="text">
-                                    <a href="#">
-                                        <h4>Tracking From Mobile Phone</h4>
-                                    </a>
-                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-4 wow fadeIn" data-wow-delay=".8s">
-                        <h2>Careers</h2>
-                        <div class="divider-deco"><span></span></div>
-                        <ul class="list-thumbnail">
-                            <li>
-                                <img src="img/about/careers/pic-small-c1.jpg" alt="">
-                                <div class="text">
-                                    <a href="#">
-                                        <h4>Truck Driver</h4>
-                                    </a>
-                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem</p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="img/about/careers/pic-small-c2.jpg" alt="">
-                                <div class="text">
-                                    <a href="#">
-                                        <h4>Warehouse Officer</h4>
-                                    </a>
-                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem</p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <img src="img/about/careers/pic-small-c3.jpg" alt="">
-                                <div class="text">
-                                    <a href="#">
-                                        <h4>Sales</h4>
-                                    </a>
-                                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                </div>
-            </div>
-        </section>
-        <!-- section close -->
+       
 
         <!-- section begin -->
         <section id="section-counter" class="light-text">

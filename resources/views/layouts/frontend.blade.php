@@ -1,3 +1,8 @@
+<?php
+use App\models\contact;
+use App\Http\Controllers\AboutController;
+$contact=contact::all();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,58 +52,98 @@
                         <!-- mainmenu begin -->
                         <nav id="mainmenu-container">
                             <ul id="mainmenu">
-                                <li><a href="{{asset('/')}}">Home</a></li>
-                                <li><a href="{{asset('service')}}">Services</a>
-                                    <ul>
-                                        <li><a href="{{asset('service')}}">All Services</a></li>
-                                        <li><a href="{{asset('service_details_1')}}">Ocean Freight</a></li>
-                                        <li><a href="{{asset('service_details_3')}}">Overland Transportation</a></li>                                        <li><a href="service-details-2.html">Air Freight</a></li>
-                                        <li><a href="{{asset('service_details_4')}}">Sea / Air Freight</a></li>
-                                        <li><a href="{{asset('service_details_5')}}">Warehousing</a></li>
-                                        <li><a href="{{asset('service_details_6')}}">Door To Door Cargo Service</a></li>
-                                        
-                                    </ul>
-                                </li>
-                                <li><a href="{{asset('about')}}">About Us</a>
-                                   
-                                </li>
+                                <li><a  class="text-primary" href="{{asset('/')}}">Home</a></li>
+                                <li><a href="{{asset('service')}}">Services</a></li>
+                                <li><a href="{{asset('about')}}">About Us</a></li>
                                 <li><a href="{{asset('news')}}">News & Updates</a></li>
                                 <li><a href="{{asset('gallery')}}">Gallery</a></li>
+                                <li><a href="" data-toggle="modal" data-target="#BookYourOrder">Book your order</a></li>
                                 <li><a href="{{asset('contact')}}">Contact</a></li>
                             </ul>
+                            
+                           
+
                         </nav>
                         <!-- mainmenu close -->
-
+                   
                         
 
                     </div>
                 </div>
             </div>
         </header>
-        <!-- header close -->
-
-
-
+        <!--   -->
+        
         @yield("body")
+    
 
-
-
+        <!-- The Modal -->
+        <div class="modal fade" id="BookYourOrder" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-center" id="staticBackdropLabel">Book your order</h3>
+                    </div>
+                    <form action="/book_order" method="POST">
+                        @csrf
+                        <div class="modal-body">
+                            <!-- Add 6 input text fields here -->
+                            <div class="mb-3">
+                            <label for="from" class="form-label">From:</label>
+                            <input type="text" class="form-control" name="frm" id="from" placeholder="Enter From (Location)" required><br>
+                            </div>
+                            <div class="mb-3">
+                            <label for="destinattion" class="form-label">Destination:</label>
+                            <input type="text" class="form-control" name="destination" id="destinattion" placeholder="Enter Destination (Location)" required><br>
+                            </div>
+                            <div class="mb-3">
+                            <label for="box" class="form-label">Number of boxes:</label>
+                            <input type="text" class="form-control" name="box" id="box" placeholder="Enter Number Of Boxes" required><br>
+                            </div>
+                            <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required><br>
+                            </div>
+                            <div class="mb-3">
+                            <label for="contact" class="form-label">Contact:</label>
+                            <input type="text" class="form-control" name="contact" id="contact" placeholder="Enter Contact" required><br>
+                            </div>
+                            <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Enter Email" required><br>
+                            </div>
+                            <div class="mb-3">
+                            <label for="details" class="form-label">Booking details</label>
+                            <textarea name="booking_details" id="details" cols="30" rows="10" class="form-control"  id="input6" required placeholder="Enter Booking Details"></textarea>
+                            </div>
+                        
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary" id="booking_modal_submit">Submit</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="booking_modal_close">Close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <!-- footer begin -->
         <footer>
             <div class="container">
                 <div class="row">
-
+                    @foreach ($contact as $contact)
                     <div class="col-md-4">
                         <h3>Contact Us</h3>
                         <div class="feature-box icon-square">
                             <i class="fa fa-phone"></i>
                             <div class="text">
                                 <p>
-                                    National Paint - Sharjah, Sonapur - Dubai, Al Quoz - Dubai, Jabal Ali - Dubai, Karama - Dubai, Deira Muteena - Dubai, Rolla - Sharjah, Ajman, Abu Dhabi<br>
-                                    UAE - 050 2837 500, 055 9867 500
-                                    WhatsApp - 050 2837 500
-                                    Email - info@bestexpressonline.com
+                                   Address: {{$contact->address}}  <br><br>
+                                    Phone: {{$contact->phone}} <br><br>
+                                    WhatsApp: {{$contact->whatsapp}}<br><br>
+                                    Email - {{$contact->email}}<br><br>
+                                    
                                 </p>
 
                                 <!-- social icons -->
@@ -113,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-
+                    @endforeach
                     <div class="col-md-4">
                         <h3>Bussiness Hours</h3>
                         <div class="feature-box icon-square">
@@ -219,6 +264,8 @@
         <!-- footer close -->
     </div>
 
+
+    
     <!-- LOAD JS FILES -->
     <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/bootstrap.min.js')}}"></script>

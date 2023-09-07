@@ -4904,3 +4904,14 @@ background: url(../img/loader.gif) center no-repeat #fff;
 	line-height:40px;
 	}
 }
+#booking_modal_submit{
+	width: 200px;
+	height: 40px;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+#booking_modal_close{
+	width: 200px;
+	height: 40px;
+
+}
